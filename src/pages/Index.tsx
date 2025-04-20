@@ -7,11 +7,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-purple-50">
       <div className="container mx-auto py-8 px-4">
-        <h1 className="text-3xl font-bold mb-8">Wellspring</h1>
+        <h1 className="text-3xl font-bold mb-8 text-primary">Wellspring Health Tracker</h1>
         
         <DashboardStats />
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
           <MealTracker />
           <ExerciseTracker />
         </div>

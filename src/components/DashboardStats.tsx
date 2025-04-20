@@ -5,7 +5,7 @@ import { Card } from "./ui/card";
 export const DashboardStats = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-      <Card className="p-4 bg-white/50 backdrop-blur-sm">
+      <Card className="p-4 bg-white/50 backdrop-blur-sm shadow-sm hover:shadow-md transition-all">
         <div className="flex items-center gap-3">
           <Scale className="w-8 h-8 text-primary" />
           <div>
@@ -15,7 +15,7 @@ export const DashboardStats = () => {
         </div>
       </Card>
       
-      <Card className="p-4 bg-white/50 backdrop-blur-sm">
+      <Card className="p-4 bg-white/50 backdrop-blur-sm shadow-sm hover:shadow-md transition-all">
         <div className="flex items-center gap-3">
           <ChartBar className="w-8 h-8 text-primary" />
           <div>
@@ -25,7 +25,7 @@ export const DashboardStats = () => {
         </div>
       </Card>
       
-      <Card className="p-4 bg-white/50 backdrop-blur-sm">
+      <Card className="p-4 bg-white/50 backdrop-blur-sm shadow-sm hover:shadow-md transition-all">
         <div className="flex items-center gap-3">
           <Activity className="w-8 h-8 text-primary" />
           <div>
